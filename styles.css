@@ -242,8 +242,15 @@ ul {
   font-weight: bold;
   color: #a82c81;
 }
-.push-up {
-  margin-bottom: 300px;
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrows-left {
+  transform-origin: left center;
+  transform: rotate(150deg);
 }
 
 /* * Section 4: Footer */
