@@ -93,13 +93,18 @@ button:focus-visible {
 }
 
 /* My Styles */
+#logo {
+  max-width: 40px;
+  margin-bottom: 20px;
+}
+
 .nav {
   color: #f9faf8;
-  background-color: #1f2937;
+  background-color: #221f20;
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .nav-logo {
@@ -122,11 +127,11 @@ ul {
 
 /* * Section 1 */
 .hook {
-  background: #1f2937;
+  background: #1f2221;
   color: white;
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
 }
 
 .hero {
@@ -153,8 +158,9 @@ ul {
 
 .img-hook {
   display: flex;
-  width: 500px;
-  height: auto;
+  max-width: 500px;
+  height: 700px;
+  object-fit: cover;
 }
 
 /* * Section 2: Information */
