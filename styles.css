@@ -93,6 +93,22 @@ button:focus-visible {
 }
 
 /* My Styles */
+#background {
+  background-image: url('./img/fulls/04.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  object-position: 50% 10%;
+  /* background-position: center; */
+}
+
+#background-nav {
+  background-image: url('./img/fulls/02.jpg');
+}
+
+#background-quotes {
+  background-image: url('./img/fulls/05.jpg');
+}
+
 #logo {
   max-width: 60px;
   margin-bottom: 20px;
@@ -127,9 +143,10 @@ ul {
 }
 
 /* * Section 1 */
+
 .hook {
-  background: #221f20;
-  color: white;
+  /* background: black; */
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 60px;
@@ -154,14 +171,16 @@ ul {
   display: flex;
   /* justify-items: space-around; */
   align-items: center;
-  background: #7774747f;
+  /* background: black; */
 }
 
 .img-hook {
+  padding-top: 30px;
   display: flex;
   max-width: 500px;
   height: 700px;
   object-fit: cover;
+  object-position: 70%;
 }
 
 /* * Section 2: Information */
@@ -232,10 +251,6 @@ ul {
   font-weight: light;
   padding: 20px;
   color: #2ca853;
-  max-width: 740px;
-}
-
-.quote-padding {
   max-width: 740px;
 }
 
