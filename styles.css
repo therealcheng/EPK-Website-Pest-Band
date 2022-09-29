@@ -97,16 +97,13 @@ button:focus-visible {
   background-image: url('./img/fulls/04.jpg');
   background-repeat: no-repeat, repeat;
   background-size: cover;
+  background-position: center;
   object-position: 50% 10%;
   /* background-position: center; */
 }
 
 #background-nav {
   background-image: url('./img/fulls/02.jpg');
-}
-
-#background-quotes {
-  background-image: url('./img/fulls/05.jpg');
 }
 
 #logo {
@@ -243,7 +240,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #212121;
+  background: #000000;
 }
 
 .quote {
