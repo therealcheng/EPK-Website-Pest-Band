@@ -224,14 +224,14 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #e5e7eb;
+  background: #212121;
 }
 
 .quote {
   font-style: Italic;
   font-weight: light;
   padding: 150px;
-  color: #1f2937;
+  color: #2ca853;
 }
 
 .thor {
@@ -240,7 +240,10 @@ ul {
   justify-content: flex-end;
   font-style: normal;
   font-weight: bold;
-  color: #1f2937;
+  color: #a82c81;
+}
+.push-up {
+  margin-bottom: 300px;
 }
 
 /* * Section 4: Footer */
