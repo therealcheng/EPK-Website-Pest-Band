@@ -1,0 +1,21 @@
+{
+  "name": "pest-band-epk-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealcheng/Pest-Band-EPK-Website.git"
+  },
+  "author": "Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/therealcheng/Pest-Band-EPK-Website/issues"
+  },
+  "homepage": "https://github.com/therealcheng/Pest-Band-EPK-Website#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
