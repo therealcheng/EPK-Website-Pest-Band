@@ -230,8 +230,13 @@ ul {
 .quote {
   font-style: Italic;
   font-weight: light;
-  padding: 150px;
+  padding: 20px;
   color: #2ca853;
+  max-width: 740px;
+}
+
+.quote-padding {
+  max-width: 740px;
 }
 
 .thor {
@@ -240,7 +245,7 @@ ul {
   justify-content: flex-end;
   font-style: normal;
   font-weight: bold;
-  color: #a82c81;
+  color: #ff2a00;
 }
 
 .arrows {
