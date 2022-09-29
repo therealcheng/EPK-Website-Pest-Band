@@ -293,3 +293,16 @@ ul {
 .app-h1 {
   font-weight: bold;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #221f20;
+  color: #e5e7eb;
+}
+
+#footer-logo {
+  width: 60px;
+  display: flex;
+  justify-content: center;
+}
