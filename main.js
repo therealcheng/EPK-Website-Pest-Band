@@ -7,7 +7,6 @@ const navLogo = document.getElementById('#logo');
 const init = () => {
   anime({
     targets: '.hero',
-
     translateY: 30,
     duration: 2000,
   });
