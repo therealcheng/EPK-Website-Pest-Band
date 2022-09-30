@@ -13,6 +13,6 @@ anime({
 });
 
 anime({
-  targets: 'nav-links',
-  translateX: 250,
+  targets: '.nav-links',
+  translateX: -250,
 });
