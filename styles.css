@@ -133,6 +133,7 @@ button:focus-visible {
   align-items: center;
   opacity: 0.8;
   gap: 24px;
+  font-size: 1.2rem;
 }
 
 ul {
