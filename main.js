@@ -6,8 +6,19 @@ const navLogo = document.getElementById('#logo');
 
 const init = () => {
   anime({
-    targets: '.nav-links',
-    translateX: -250,
+    targets: '.hero',
+
+    translateY: 30,
+    duration: 2000,
+  });
+  anime({
+    targets: '.hero-p',
+    translateY: 30,
+    duration: 2000,
+  });
+  anime({
+    targets: '.hero-p2',
+    translateY: 30,
     duration: 2000,
   });
 };
