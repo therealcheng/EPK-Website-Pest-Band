@@ -78,10 +78,10 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: dark) {
   :root {
-    color: black;
-    background-color: white;
+    /* color: black; */
+    background-color: black;
   }
   a:hover {
     color: #747bff;
@@ -140,7 +140,7 @@ ul {
   list-style: none;
 }
 
-/* * Section 1 */
+/* * Section: hook */
 
 .hook {
   /* background: black; */
@@ -181,7 +181,7 @@ ul {
   object-position: 70%;
 }
 
-/* * Section 2: Information */
+/* * Section: Information */
 .info-container {
   margin: 30px;
   color: black;
@@ -234,7 +234,7 @@ ul {
   padding-top: 20px;
 }
 
-/* * Section 3: Quote section */
+/* * Section: Quote section */
 
 .quote-container {
   display: flex;
@@ -271,7 +271,7 @@ ul {
   transform: rotate(150deg);
 }
 
-/* * Section 4: Footer */
+/* * Section: Footer */
 
 /* #app {
   display: flex;
