@@ -19,5 +19,8 @@
     "animejs": "^3.2.1",
     "parcel": "^2.7.0",
     "swiper": "^8.4.3"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
   }
 }

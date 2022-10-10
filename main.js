@@ -1,5 +1,6 @@
 import anime from './node_modules/animejs/lib/anime.es.js';
-import Swiper from './node_modules/swiper';
+import Swiper from 'swiper';
+import 'swiper/swiper.scss';
 
 const btn = document.querySelector('.btn');
 const footer = document.querySelector('.footer');
