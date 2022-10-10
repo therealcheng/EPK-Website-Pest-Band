@@ -81,7 +81,7 @@ button:focus-visible {
 @media (prefers-color-scheme: dark) {
   :root {
     color: black;
-    background-color: black;
+    background-color: #0a1a0d;
   }
   a:hover {
     color: #747bff;
@@ -238,7 +238,7 @@ ul {
 
 .swiper {
   /* max-width: auto; */
-  height: auto;
+  /* height: auto; */
 }
 
 .quote-container {
@@ -246,7 +246,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #000000;
+  background: #0a1a0d;
 }
 
 .quote {
@@ -263,7 +263,7 @@ ul {
   justify-content: flex-end;
   font-style: normal;
   font-weight: bold;
-  color: #ff2a00;
+  color: #ffffff;
 }
 
 .arrows {

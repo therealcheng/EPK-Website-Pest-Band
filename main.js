@@ -10,17 +10,17 @@ const navLogo = document.getElementById('#logo');
 const init = () => {
   anime({
     targets: '.hero',
-    translateY: 60,
+    translateY: 30,
     duration: 2000,
   });
   anime({
     targets: '.hero-p',
-    translateY: 60,
+    translateY: 30,
     duration: 2000,
   });
   anime({
     targets: '.hero-p2',
-    translateY: 60,
+    translateY: 30,
     duration: 2000,
   });
 };
@@ -49,6 +49,8 @@ const swiper = new Swiper('.swiper', {
   },
 
   autoplay: {
-    delay: 5000,
+    delay: 2000,
+    // disableOnInteraction: false,
   },
+  loop: true,
 });
