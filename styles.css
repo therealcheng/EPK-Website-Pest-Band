@@ -81,7 +81,7 @@ button:focus-visible {
 @media (prefers-color-scheme: dark) {
   :root {
     /* color: black; */
-    background-color: black;
+    /* background-color: black; */
   }
   a:hover {
     color: #747bff;
@@ -237,7 +237,7 @@ ul {
 /* * Section: Quote section */
 
 .swiper {
-  width: 600px;
+  /* max-width: display; */
   height: 300px;
 }
 
