@@ -236,11 +236,6 @@ ul {
 
 /* * Section: Quote section */
 
-.swiper {
-  /* max-width: auto; */
-  /* height: auto; */
-}
-
 .quote-container {
   display: flex;
   flex-direction: column;
