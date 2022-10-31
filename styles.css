@@ -1,6 +1,8 @@
 :root {
   font-family: roboto, arial, helvetica, sans-serif;
   line-height: 24px;
+  background: rgb(0, 0, 0);
+  color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -78,23 +80,8 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: black;
-    background-color: #0a1a0d;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #3882f6;
-    color: #ffffff;
-  }
-}
-
-/* My Styles */
 #background {
-  background-image: url('./img/fulls/04.jpg');
+  background-image: url("./img/fulls/04.jpg");
   background-repeat: no-repeat, repeat;
   background-size: cover;
   background-position: center;
@@ -103,7 +90,7 @@ button:focus-visible {
 }
 
 #background-nav {
-  background-image: url('./img/fulls/02.jpg');
+  background-image: url("./img/fulls/02.jpg");
 }
 
 #logo {
@@ -232,43 +219,6 @@ ul {
 
 .info-text {
   padding-top: 20px;
-}
-
-/* * Section: Quote section */
-
-.quote-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #0a1a0d;
-}
-
-.quote {
-  font-style: Italic;
-  font-weight: light;
-  padding: 20px;
-  color: #2ca853;
-  max-width: 740px;
-}
-
-.thor {
-  font-size: 16px;
-  display: flex;
-  justify-content: flex-end;
-  font-style: normal;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-.arrows {
-  display: flex;
-  justify-content: space-between;
-}
-
-.arrows-left {
-  transform-origin: left center;
-  transform: rotate(150deg);
 }
 
 /* * Section: Footer */
