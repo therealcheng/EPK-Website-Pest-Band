@@ -17,6 +17,7 @@
   "homepage": "https://github.com/therealcheng/Pest-EPK-Website2.0#readme",
   "dependencies": {
     "animejs": "^3.2.1",
+    "daisyui": "^2.38.0",
     "parcel": "^2.7.0",
     "swiper": "^8.4.3"
   },
