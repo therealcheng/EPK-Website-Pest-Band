@@ -12,7 +12,7 @@ const Nav = () => {
           <ul className='nav-links'>
             <li>
               <a className='nav-link' href='./index.html'>
-                Home
+                Electronic Press Kit
               </a>
             </li>
             <li>

@@ -8,6 +8,7 @@
 .nav {
   color: #f9faf8;
   background-color: #221f20;
+  background-image: url(../img/nav-banner.png);
   display: flex;
   justify-content: space-between;
   padding: 24px;
@@ -35,7 +36,7 @@
 
 .nav-link {
   font-size: 1.2rem;
-  color: aqua;
+  color: rgb(255, 255, 255);
 }
 
 ul {
