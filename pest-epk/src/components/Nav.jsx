@@ -1,5 +1,7 @@
+import '../styles/Nav.css';
+
 const Nav = () => {
-  return <div>Nav Bar</div>;
+  return <div className='nav'>Nav Bar</div>;
 };
 
 export default Nav;
