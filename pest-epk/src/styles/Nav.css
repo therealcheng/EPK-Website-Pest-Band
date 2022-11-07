@@ -28,6 +28,11 @@
   font-size: 1.2rem;
 }
 
+.nav-link {
+  font-size: 1.2rem;
+  color: aqua;
+}
+
 ul {
   list-style: none;
 }
