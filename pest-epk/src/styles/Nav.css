@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel Decorative');
+
 #logo {
   max-width: 60px;
   margin-bottom: 20px;
@@ -10,6 +12,8 @@
   justify-content: space-between;
   padding: 24px;
   padding-bottom: 20px;
+  font-family: 'Cinzel Decorative';
+  font-size: 22px;
 }
 
 .nav-logo {
