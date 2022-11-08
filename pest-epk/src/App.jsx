@@ -1,7 +1,7 @@
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
-import Music from './components/Music';
+import Quotes from './components/Quotes';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <div>
           <About />
           <div>
-            <Music />
+            <Quotes />
           </div>
         </div>
       </div>

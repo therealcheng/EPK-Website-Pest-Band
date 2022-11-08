@@ -6,7 +6,7 @@ const About = () => {
         PEST are a punk rock two piece based in Hertfordshire.
       </h2>
       <p className='mt-6 text-white px-10 text-lg pt-4'></p>
-      <p className='mt-4 text-white px-10 text-lg pt-6 max-h-80'>
+      <p className='mt-4 text-white px-10 text-lg pt-6'>
         The construction of the energetic unique sound amplified by this duo
         consists of Powerful Industrial drumming by Harvey Denman and Thunderous
         Nu-Metal riffs and Punk Rock vocal by Cameron Taylor. The PEST boys are

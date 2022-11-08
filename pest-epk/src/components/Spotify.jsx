@@ -10,7 +10,7 @@ const Spotify = () => {
         src={link}
         width='100%'
         height='200'
-        frameBorder='0'
+        frameBorder=''
         loading='lazy'
       ></iframe>
     </div>
