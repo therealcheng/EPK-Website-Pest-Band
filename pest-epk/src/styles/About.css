@@ -5,6 +5,11 @@
 }
 
 .about {
+  background-color: Black;
   display: flex;
-  justify-content: space-around;
+  align-items: flex-end;
+  background-image: url('../img/portrait1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
