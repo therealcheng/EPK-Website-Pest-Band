@@ -1,7 +1,7 @@
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
-import Spotify from './components/Spotify';
+import Music from './components/Music';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <div>
           <About />
           <div>
-            <Spotify />
+            <Music />
           </div>
         </div>
       </div>
