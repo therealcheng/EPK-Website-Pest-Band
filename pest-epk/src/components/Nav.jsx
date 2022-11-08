@@ -15,11 +15,11 @@ const Nav = () => {
                 Electronic Press Kit
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className='nav-link' href='pestbandofficial@outlook.com'>
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
