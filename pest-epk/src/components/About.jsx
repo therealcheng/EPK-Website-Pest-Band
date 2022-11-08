@@ -9,19 +9,20 @@ const About = () => {
             <img src={gif} alt='pest-band' loading='lazy' width='' height='' />
           </div>
           <div className='md:7/12 lg:w-6/12'>
-            <h2 className='text-2xl text-black font-bold md:text-4xl'>
-              Pest are a punk rock two piece based in Hertfordshire.
+            <h2 className='text-2xl text-black font-bold md:text-4xl uppercase'>
+              PEST are a punk rock two piece based in Hertfordshire.
             </h2>
-            <p className='mt-6 text-black'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum
-              omnis voluptatem accusantium nemo perspiciatis delectus atque
-              autem! Voluptatum tenetur beatae unde aperiam, repellat expedita
-              consequatur! Officiis id consequatur atque doloremque!
+            <p className='mt-6 text-black text-lg'>
+              The construction of the energetic unique sound amplified by this
+              duo consists of Powerful Industrial drumming by Harvey Denman and
+              Thunderous Nu-Metal riffs and Punk Rock vocal by Cameron Taylor.
             </p>
-            <p className='mt-4 text-black'>
-              Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
-              expedita at? Asperiores nemo possimus nesciunt dicta veniam
-              aspernatur quam mollitia.
+            <p className='mt-4 text-black text-lg'>
+              The rebellion started as a Four-Piece in early 2020 but soon took
+              flight as a Power Duo leading a new-wave punk rock battle. The
+              PEST boys are actively performing shows around London and
+              Hertfordshire with expansion out to the rest of the UK planned.
+              This is displayed on their variety on social media platforms.
             </p>
           </div>
         </div>
