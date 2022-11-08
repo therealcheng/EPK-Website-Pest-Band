@@ -4,6 +4,7 @@
   font-family: 'Cinzel Decorative';
 }
 
-.def-background {
-  background-color: #f5f759;
+.about {
+  display: flex;
+  justify-content: space-around;
 }
