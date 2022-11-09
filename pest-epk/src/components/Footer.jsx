@@ -1,4 +1,4 @@
-import NavIcons from './NavIcons';
+import IconLinks from './IconLinks';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8'>
         <div className='mx-auto max-w-3xl space-y-6'>
           <div className='flex justify-center'>
-            <NavIcons />
+            <IconLinks />
           </div>
 
           {/* <nav

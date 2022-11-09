@@ -4,6 +4,7 @@ import image3 from '../img/promo/03.jpg';
 import image4 from '../img/promo/04.jpg';
 import image5 from '../img/promo/05.jpg';
 import image6 from '../img/promo/06.jpg';
+import '../styles/Promo.css';
 
 const Carousel = () => {
   return (

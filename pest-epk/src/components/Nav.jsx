@@ -1,6 +1,6 @@
 import '../styles/Nav.css';
 import logo from '../img/pest-logo.jpg';
-import NavIcons from './NavIcons';
+import IconLinks from './IconLinks';
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
         <div className='nav-logo'>
           <img id='logo' src={logo} alt='pest-logo' />
           <div className='pl-20'>
-            <NavIcons />
+            <IconLinks />
           </div>
         </div>
         <div className='pt-8'>
