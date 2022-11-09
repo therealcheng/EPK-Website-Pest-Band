@@ -9,7 +9,7 @@ const Spotify = () => {
         title='Spotify'
         src={link}
         width='100%'
-        height='300'
+        height='200'
         frameBorder=''
         loading='lazy'
       ></iframe>
