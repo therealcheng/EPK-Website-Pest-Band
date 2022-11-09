@@ -6,7 +6,7 @@ const Promo = () => {
   return (
     <div className='background'>
       <div className='p-48'>
-        <h1 className=' flex justify-start text-6xl text-white'>
+        <h1 className=' flex justify-start text-6xl text-white pb-36'>
           PRESS PHOTOS & ARTWORK
         </h1>
         <div className='p-8 flex gap-6'>
