@@ -1,4 +1,8 @@
 const Quote3 = () => {
+  const link = (e) => {
+    e.preventDefault();
+    window.open('https://vm.tiktok.com/ZMN1QjThS/?k=1');
+  };
   return (
     <div className='card w-96 bg-base-100 shadow-xl'>
       <figure>
@@ -10,7 +14,7 @@ const Quote3 = () => {
           it was crazy"
         </h2>
 
-        <div className='card-actions justify-end'>
+        <div className='card-actions justify-end' onClick={link}>
           <button className='btn btn-primary'>Black Feather, May 2022</button>
         </div>
       </div>

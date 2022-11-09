@@ -1,4 +1,10 @@
 const Quote2 = () => {
+  const link = (e) => {
+    e.preventDefault();
+    window.open(
+      'https://louderthanwar.com/pest-nicotine-wake-up-single-review/'
+    );
+  };
   return (
     <div className='card w-96 bg-base-100 shadow-xl'>
       <figure>
@@ -10,7 +16,7 @@ const Quote2 = () => {
         </h2>
 
         <div className='card-actions justify-end'>
-          <button className='btn btn-primary'>
+          <button className='btn btn-primary' onClick={link}>
             Iain Key, Louder Than War Radio
           </button>
         </div>
