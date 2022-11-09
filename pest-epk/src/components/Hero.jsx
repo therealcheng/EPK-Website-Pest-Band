@@ -2,7 +2,7 @@ import '../styles/Hero.css';
 const Hero = () => {
   return (
     <div className='hero-main p-96'>
-      <div className='max-w-md'>
+      <div className='pl-96 max-w-md'>
         <h1 className='mb-10 text-8xl font-bold'>
           IN PURGATORY <br></br>
         </h1>

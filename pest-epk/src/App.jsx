@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Quotes from './components/Quotes';
 import Music from './components/Music';
+import Promo from './components/Promo';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
             <Music />
             <div>
               <Quotes />
+              <div>
+                <Promo />
+              </div>
             </div>
           </div>
         </div>
