@@ -8,7 +8,7 @@
 .nav {
   color: #f9faf8;
   background-color: #221f20;
-  background-image: url(../img/nav-banner.png);
+  /* background-image: url(../img/nav-banner2.png); */
   display: flex;
   justify-content: space-between;
   padding: 24px;
