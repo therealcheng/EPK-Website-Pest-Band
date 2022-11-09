@@ -1,4 +1,5 @@
 import '../styles/Hero.css';
+
 const Hero = () => {
   return (
     <div className='hero-main p-96'>
