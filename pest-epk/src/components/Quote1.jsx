@@ -13,7 +13,7 @@ const Quote1 = () => {
         <img src={image} alt='Dislocated Magazine' />
       </figure>
       <div className='card-body'>
-        <h2 className='card-title'>
+        <h2 className='card-title text-white'>
           If this does not wake you up, then I don’t know what will
         </h2>
         <p>Dislocated Magazine</p>
