@@ -13,7 +13,12 @@ const Spotify = () => {
         frameBorder=''
         loading='lazy'
       ></iframe>
-      <a href='#' className='group relative block bg-black'>
+      <a
+        href='https://open.spotify.com/artist/65Zmltlk1QXhHR93MiH4Yl?si=2ZNvcoo5TKK_Itg8mfuXTg'
+        target='_blank'
+        rel='noreferrer noopener'
+        className='group relative block bg-black'
+      >
         <img
           alt='Developer'
           src='https://images.unsplash.com/photo-1603871165848-0aa92c869fa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80'

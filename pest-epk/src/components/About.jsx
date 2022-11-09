@@ -7,12 +7,12 @@ const About = () => {
       </h2>
       <p className='mt-6 text-white px-10 text-lg pt-4'></p>
       <p className='mt-4 text-white px-10 text-lg pt-6'>
-        The construction of the energetic unique sound amplified by this duo
-        consists of Powerful Industrial drumming by Harvey Denman and Thunderous
-        Nu-Metal riffs and Punk Rock vocal by Cameron Taylor. The PEST boys are
-        actively performing shows around London and Hertfordshire with expansion
-        out to the rest of the UK planned. This is displayed on their variety on
-        social media platforms.
+        PEST is an Industrial Nu-Punk Two-Piece movement from the UK. The
+        energetic unique sound amplified by this duo consists of Powerful
+        Industrial drumming by Harvey Denman and Thunderous Nu-Metal riffs and
+        Punk Rock vocals by Cameron Taylor. The rebellion started in early 2020
+        and took flight in London as a Power Duo leading a new-wave punk rock
+        battle.
       </p>
     </div>
   );
