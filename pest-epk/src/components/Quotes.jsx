@@ -5,7 +5,7 @@ import '../styles/Quotes.css';
 
 const Quotes = () => {
   return (
-    <div className='bg-rose-900 pt-4'>
+    <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 bg-gradient-to-r pt-4'>
       <div className='flex justify-center text-6xl text-white'>
         PRESS ARTICLES
       </div>
