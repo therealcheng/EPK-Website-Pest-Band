@@ -6,16 +6,19 @@ const Nav = () => {
   return (
     <div>
       <nav className='nav' id='background-nav'>
+        <div className='flex justify-center'>
+          <img className='' src={logo} width={50} alt='pest-logo' />
+        </div>
         <div className='nav-logo'>
-          <img id='logo' src={logo} alt='pest-logo' />
-          <div className='pl-20'>
+          <img className='hidden' src={logo} alt='pest-logo' />
+          <div>
             <IconLinks />
           </div>
         </div>
         <div className='pt-8'>
           <ul className='nav-links'>
             <li>
-              <a className='nav-link' href='./index.html'>
+              <a className='hidden md:block md:nav-link' href='./index.html'>
                 Electronic Press Kit
               </a>
             </li>
