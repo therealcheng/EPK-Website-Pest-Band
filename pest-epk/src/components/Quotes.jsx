@@ -5,9 +5,9 @@ import '../styles/Quotes.css';
 
 const Quotes = () => {
   return (
-    <div className='bg-rose-900 '>
-      <div className='flex justify-center text-8xl text-white'>
-        Press Articles
+    <div className='bg-rose-900 pt-4'>
+      <div className='flex justify-center text-6xl text-white'>
+        PRESS ARTICLES
       </div>
       <div className='flex p-24 justify-center gap-10'>
         <Quote1 />

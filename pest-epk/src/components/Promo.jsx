@@ -1,5 +1,5 @@
 const Promo = () => {
-  return <div className='p-96'>Promo Photos</div>;
+  return <div className='p-96'>PRESS PHOTOS</div>;
 };
 
 export default Promo;

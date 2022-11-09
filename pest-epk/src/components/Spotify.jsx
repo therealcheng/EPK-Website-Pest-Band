@@ -4,11 +4,11 @@ const Spotify = () => {
   const link =
     'https://open.spotify.com/embed/artist/65Zmltlk1QXhHR93MiH4Yl?utm_source=generator';
   return (
-    <div className='spotify'>
+    <div className='spotify flex justify-center'>
       <iframe
         title='Spotify'
         src={link}
-        width='100%'
+        width='60%'
         height='200'
         frameBorder=''
         loading='lazy'
