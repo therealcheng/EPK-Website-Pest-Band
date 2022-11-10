@@ -8,7 +8,7 @@ const Hero = () => {
           IN PURGATORY <br></br>
         </h1>
         <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
-          DECEMBER 3rd
+          RELEASE DATE: 03/12/2022
         </h1>
         {/* <button className=''>Be ready, this is PEST</button> */}
       </div>
