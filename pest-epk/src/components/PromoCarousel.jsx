@@ -11,16 +11,10 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 const Carousel = () => {
   return (
     <div className='carousel rounded-box'>
-      <div className='carousel-item'>
-        <LazyLoadImage
-          src={image1}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press1'
-        />
+      <div className='carousel-item w-60 lg:w-96'>
+        <LazyLoadImage src={image1} effect='blur' alt='Press1' />
       </div>
-      <div className='carousel-item'>
+      <div className='carousel-item w-60 lg:w-96'>
         <LazyLoadImage
           src={image2}
           width={400}
@@ -29,7 +23,7 @@ const Carousel = () => {
           alt='Press2'
         />
       </div>
-      <div className='carousel-item'>
+      <div className='carousel-item w-60 lg:w-96'>
         <LazyLoadImage
           src={image3}
           width={400}
@@ -38,7 +32,7 @@ const Carousel = () => {
           alt='Press3'
         />
       </div>
-      <div className='carousel-item'>
+      <div className='carousel-item w-60 lg:w-96'>
         <LazyLoadImage
           src={image4}
           width={400}
@@ -47,7 +41,7 @@ const Carousel = () => {
           alt='Press4'
         />
       </div>
-      <div className='carousel-item'>
+      <div className='carousel-item w-60 lg:w-96'>
         <LazyLoadImage
           src={image5}
           width={400}
@@ -56,7 +50,7 @@ const Carousel = () => {
           alt='Press5'
         />
       </div>
-      <div className='carousel-item'>
+      <div className='carousel-item w-60 lg:w-96'>
         <LazyLoadImage
           src={image6}
           width={400}

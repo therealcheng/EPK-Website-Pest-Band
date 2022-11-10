@@ -8,9 +8,9 @@ import image6 from '../img/promo/06.jpg';
 const PromoDownloads = () => {
   return (
     <div>
-      <div className='flex-col justify-center text-white text-2xl'>
+      <div className='flex-col justify-center text-white lg:text-2xl'>
         <ul>
-          <h1 className='text-3xl underline'>Jpegs</h1>
+          <h1 className='lg:text-3xl underline'>Jpegs</h1>
         </ul>
         <ul>
           Download &nbsp;
