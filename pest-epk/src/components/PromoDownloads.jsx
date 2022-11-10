@@ -1,9 +1,9 @@
-import image1 from '../img/promo/01.jpg';
-import image2 from '../img/promo/02.jpg';
-import image3 from '../img/promo/03.jpg';
-import image4 from '../img/promo/04.jpg';
-import image5 from '../img/promo/05.jpg';
-import image6 from '../img/promo/06.jpg';
+import image1 from '../img/promo/download/01.jpg';
+import image2 from '../img/promo/download/02.jpg';
+import image3 from '../img/promo/download/03.jpg';
+import image4 from '../img/promo/download/04.jpg';
+import image5 from '../img/promo/download/05.jpg';
+import image6 from '../img/promo/download/06.jpg';
 
 const PromoDownloads = () => {
   return (

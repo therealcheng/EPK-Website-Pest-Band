@@ -1,4 +1,4 @@
-import image from '../img/spotify.jpg';
+import image from '../img/spotify.jpeg';
 
 const Card = () => {
   return (

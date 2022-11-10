@@ -1,9 +1,9 @@
-import image1 from '../img/promo/01.jpg';
-import image2 from '../img/promo/02.jpg';
-import image3 from '../img/promo/03.jpg';
-import image4 from '../img/promo/04.jpg';
-import image5 from '../img/promo/05.jpg';
-import image6 from '../img/promo/06.jpg';
+import image1 from '../img/promo/01.jpeg';
+import image2 from '../img/promo/02.jpeg';
+import image3 from '../img/promo/03.jpeg';
+import image4 from '../img/promo/04.jpeg';
+import image5 from '../img/promo/05.jpeg';
+import image6 from '../img/promo/06.jpeg';
 import '../styles/Promo.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
