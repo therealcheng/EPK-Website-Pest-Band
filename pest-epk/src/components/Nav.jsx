@@ -11,7 +11,7 @@ const Nav = () => {
         </div>
         <div className='nav-logo'>
           <img className='hidden lg:block w-20' src={logo} alt='pest-logo' />
-          <div>
+          <div className='lg:pl-12'>
             <IconLinks />
           </div>
         </div>
