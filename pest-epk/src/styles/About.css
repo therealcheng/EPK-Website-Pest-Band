@@ -8,6 +8,16 @@
   background-color: Black;
   display: flex;
   align-items: flex-end;
+}
+
+.background-img {
+  background-image: url('../img/promo/05.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-img-lg {
   background-image: url('../img/portrait1.jpg');
   background-repeat: no-repeat;
   background-position: center;
