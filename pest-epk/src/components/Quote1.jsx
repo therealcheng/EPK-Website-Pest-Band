@@ -11,7 +11,7 @@ const Quote1 = () => {
     <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
         <img
-          className='hidden lg:block'
+          className='hidden md:block lg:block'
           src={image}
           alt='Dislocated Magazine'
         />

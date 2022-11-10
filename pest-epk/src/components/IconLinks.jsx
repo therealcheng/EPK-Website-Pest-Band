@@ -12,7 +12,7 @@ import { BsSpotify, BsApple } from 'react-icons/bs';
 
 const NavIcons = () => {
   return (
-    <div className='flex gap-4'>
+    <div className='flex gap-4 lg:pl-12'>
       <ul className=''>
         <a
           href='mailto: pestbandofficial@outlook.com'

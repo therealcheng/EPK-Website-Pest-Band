@@ -5,11 +5,11 @@ import '../styles/Quotes.css';
 
 const Quotes = () => {
   return (
-    <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600'>
-      <div className='lg:p-48'>
+    <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
+      <div className='lg:p-36'>
         <h1 className='p-10 lg:text-6xl text-white'>PRESS ARTICLES</h1>
       </div>
-      <div className=' flex flex-col gap-8 items-center pb-8 lg:pb-48 lg:justify-center lg:gap-10'>
+      <div className=' flex flex-col gap-8 items-center pb-8 lg:pb-48 md:flex-row md:justify-center lg:gap-10'>
         <Quote1 />
         <Quote2 />
         <Quote3 />

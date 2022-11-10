@@ -5,20 +5,23 @@ import IconLinks from './IconLinks';
 const Nav = () => {
   return (
     <div>
-      <nav className='nav' id='background-nav'>
+      <nav className='nav lg:flex lg:gap-12' id='background-nav'>
         <div className='flex justify-center'>
-          <img className='' src={logo} width={50} alt='pest-logo' />
+          <img className='lg:hidden' src={logo} width={50} alt='pest-logo' />
         </div>
         <div className='nav-logo'>
-          <img className='hidden' src={logo} alt='pest-logo' />
+          <img className='hidden lg:block w-20' src={logo} alt='pest-logo' />
           <div>
             <IconLinks />
           </div>
         </div>
         <div className='pt-8'>
-          <ul className='nav-links'>
+          <ul className='lg:nav-links'>
             <li>
-              <a className='hidden md:block md:nav-link' href='./index.html'>
+              <a
+                className='hidden md:flex md:nav-link md:justify-center md:pb-8'
+                href='./index.html'
+              >
                 Electronic Press Kit
               </a>
             </li>

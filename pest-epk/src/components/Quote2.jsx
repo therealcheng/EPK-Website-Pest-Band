@@ -10,7 +10,7 @@ const Quote2 = () => {
   return (
     <div className='card  w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
-        <img className='hidden lg:block' src={image} alt='Shoes' />
+        <img className='hidden md:block lg:block' src={image} alt='Shoes' />
       </figure>
       <div className='card-body'>
         <h2 className='italic card-title text-white'>
