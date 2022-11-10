@@ -6,12 +6,12 @@ const Quote3 = () => {
     window.open('https://vm.tiktok.com/ZMN1QjThS/?k=1');
   };
   return (
-    <div className='card w-96 bg-base-100 shadow-xl'>
+    <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
-        <img src={image} alt='Shoes' />
+        <img className='hidden lg:block' src={image} alt='Shoes' />
       </figure>
       <div className='card-body'>
-        <h2 className='card-title text-white'>
+        <h2 className='italic card-title text-white'>
           “I knew nothing about you guys, I walked in and everyone was moshing,
           it was crazy"
         </h2>

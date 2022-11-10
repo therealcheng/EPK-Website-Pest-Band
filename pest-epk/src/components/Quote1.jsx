@@ -8,13 +8,17 @@ const Quote1 = () => {
     );
   };
   return (
-    <div className='card w-96 bg-base-100 shadow-xl'>
+    <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
-        <img src={image} alt='Dislocated Magazine' />
+        <img
+          className='hidden lg:block'
+          src={image}
+          alt='Dislocated Magazine'
+        />
       </figure>
       <div className='card-body'>
-        <h2 className='card-title text-white'>
-          If this does not wake you up, then I don’t know what will
+        <h2 className='italic card-title text-white'>
+          "If this does not wake you up, then I don’t know what will"
         </h2>
         <p>Dislocated Magazine</p>
         <div className='card-actions justify-end'>

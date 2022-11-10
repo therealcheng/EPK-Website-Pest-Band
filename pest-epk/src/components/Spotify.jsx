@@ -14,6 +14,7 @@ const Spotify = () => {
         width='100%'
         height='200'
         src={link}
+        frameBorder='0'
         loading='lazy'
       ></iframe>
       <div className='hidden lg:block'>

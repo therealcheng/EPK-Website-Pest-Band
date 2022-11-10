@@ -8,12 +8,12 @@ const Quote2 = () => {
     );
   };
   return (
-    <div className='card w-96 bg-base-100 shadow-xl'>
+    <div className='card  w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
-        <img src={image} alt='Shoes' />
+        <img className='hidden lg:block' src={image} alt='Shoes' />
       </figure>
       <div className='card-body'>
-        <h2 className='card-title text-white'>
+        <h2 className='italic card-title text-white'>
           “The heaviest thing to come out of the county since Enter Shikari”
         </h2>
         <p>Iain Key, Louder Than War Radio</p>

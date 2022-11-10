@@ -5,7 +5,7 @@ import PromoDownloads from './PromoDownloads';
 const Promo = () => {
   return (
     <div className='background'>
-      <div className='p-48'>
+      <div className='lg:p-48'>
         <h1 className=' flex justify-start text-6xl text-white pb-36'>
           PRESS PHOTOS & ARTWORK
         </h1>
