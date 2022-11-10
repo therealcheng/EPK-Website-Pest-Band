@@ -5,16 +5,20 @@ const Spotify = () => {
   const link =
     'https://open.spotify.com/embed/artist/65Zmltlk1QXhHR93MiH4Yl?utm_source=generator';
   return (
-    <div className='spotify flex justify-center'>
+    <div className='lg:flex lg:justify-center'>
+      <div className='lg:hidden'>
+        <Card />
+      </div>
       <iframe
         title='Spotify'
+        width='100%'
+        height='200'
         src={link}
-        width='50%'
-        height='300'
-        frameBorder=''
         loading='lazy'
       ></iframe>
-      <Card />
+      <div className='hidden lg:block'>
+        <Card />
+      </div>
     </div>
   );
 };
