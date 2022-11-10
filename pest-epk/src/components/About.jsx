@@ -1,7 +1,7 @@
 import '../styles/About.css';
 const About = () => {
   return (
-    <div className='p-12 py-56 background-img lg:about lg:p-96'>
+    <div className='p-12 py-36 background-img lg:about lg:p-96'>
       <h2 className='text-white font-bold lg:pb-40 pl-8 lg:text-4xl uppercase   lg:p-12'>
         PEST are a punk rock two piece based in Hertfordshire.
       </h2>
