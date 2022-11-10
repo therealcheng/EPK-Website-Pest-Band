@@ -9,7 +9,7 @@ const Promo = () => {
         <h1 className=' p-8 text-white flex justify-start lg:text-6xl  lg:pb-36'>
           PRESS PHOTOS & ARTWORK
         </h1>
-        <div className='p-8 flex gap-6'>
+        <div className='pb-4 lg:p-8 flex gap-6'>
           <PromoCarousel />
         </div>
         <div>

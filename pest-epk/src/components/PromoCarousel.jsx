@@ -12,52 +12,22 @@ const Carousel = () => {
   return (
     <div className='carousel rounded-box'>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage src={image1} effect='blur' alt='Press1' />
+        <LazyLoadImage src={image1} alt='Press1' />
       </div>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage
-          src={image2}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press2'
-        />
+        <LazyLoadImage src={image2} alt='Press2' />
       </div>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage
-          src={image3}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press3'
-        />
+        <LazyLoadImage src={image3} alt='Press3' />
       </div>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage
-          src={image4}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press4'
-        />
+        <LazyLoadImage src={image4} alt='Press4' />
       </div>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage
-          src={image5}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press5'
-        />
+        <LazyLoadImage src={image5} alt='Press5' />
       </div>
       <div className='carousel-item w-60 lg:w-96'>
-        <LazyLoadImage
-          src={image6}
-          width={400}
-          height={300}
-          effect='blur'
-          alt='Press6'
-        />
+        <LazyLoadImage src={image6} alt='Press6' />
       </div>
     </div>
   );
