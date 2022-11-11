@@ -5,6 +5,9 @@ const Hero = () => {
   const preSave = () => {
     window.open('https://distrokid.com/hyperfollow/pest4/in-purgatory');
   };
+  const photoReel = () => {
+    console.log('works');
+  };
   return (
     <div className='hero-main lg:p-96'>
       <div className='lg:block lg:max-w-md'>
@@ -14,7 +17,7 @@ const Hero = () => {
       </div>
       <div className='flex justify-center pb-4'>
         <motion.button
-          whileHover={{ scale: 1.1 }}
+          whileHover={{ scale: 1.1, opacity: 0.9 }}
           transition={{ duration: 0.3 }}
           onClick={preSave}
           className='btn btn-active btn-accent alight-center'
