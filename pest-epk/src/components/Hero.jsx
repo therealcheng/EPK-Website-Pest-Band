@@ -1,4 +1,5 @@
 import '../styles/Hero.css';
+import { motion } from 'framer-motion';
 
 const Hero = () => {
   const preSave = () => {
@@ -12,12 +13,14 @@ const Hero = () => {
         </h1>
       </div>
       <div className='flex justify-center pb-4'>
-        <button
+        <motion.button
+          whileHover={{ scale: 1.1 }}
+          transition={{ duration: 0.3 }}
           onClick={preSave}
           className='btn btn-active btn-accent alight-center'
         >
           Presave
-        </button>
+        </motion.button>
       </div>
       <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
         RELEASE DATE: 03/12/2022
