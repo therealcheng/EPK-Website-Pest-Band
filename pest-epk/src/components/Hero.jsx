@@ -12,7 +12,7 @@ const Hero = () => {
     <motion.div
       animate={{ opacity: 1 }}
       initial={{ opacity: 0.1 }}
-      transition={{ duration: 8 }}
+      transition={{ duration: 4 }}
       className='hero-main lg:p-96'
     >
       <div className='lg:block lg:max-w-md'>
