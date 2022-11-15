@@ -1,4 +1,5 @@
 import image from '../img/louderThanWar.png';
+import { motion } from 'framer-motion';
 
 const Quote2 = () => {
   const link = (e) => {
@@ -10,7 +11,19 @@ const Quote2 = () => {
   return (
     <div className='card  w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
-        <img className='hidden md:block lg:block' src={image} alt='Shoes' />
+        <a
+          href='https://louderthanwar.com/pest-nicotine-wake-up-single-review/'
+          target='_blank'
+          rel='noreferrer'
+        >
+          <motion.img
+            whileHover={{ scale: 1.1, opacity: 0.9 }}
+            transition={{ duration: 0.3 }}
+            className='hidden md:block lg:block'
+            src={image}
+            alt='Louder Than War'
+          />
+        </a>
       </figure>
       <div className='card-body'>
         <h2 className='italic card-title text-white'>
