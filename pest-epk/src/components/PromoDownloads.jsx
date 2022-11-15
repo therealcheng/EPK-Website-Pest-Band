@@ -17,32 +17,32 @@ const PromoDownloads = () => {
           className='dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52'
         >
           <li>
-            <a className='text-red-500' href={image1} download>
+            <a className='' href={image1} download>
               Image 1
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={image2} download>
+            <a className='' href={image2} download>
               Image 2
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={image3} download>
+            <a className='' href={image3} download>
               Image 3
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={image4} download>
+            <a className='' href={image4} download>
               Image 4
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={image5} download>
+            <a className='' href={image5} download>
               Image 5
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={image6} download>
+            <a className='' href={image6} download>
               Image 6
             </a>
           </li>
