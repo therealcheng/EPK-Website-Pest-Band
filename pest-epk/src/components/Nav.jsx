@@ -18,12 +18,12 @@ const Nav = () => {
         <div className='pt-8'>
           <ul className='lg:nav-links'>
             <li>
-              <a
+              {/* <a
                 className='hidden md:flex md:nav-link md:justify-center md:pb-8'
                 href='./index.html'
               >
                 Electronic Press Kit
-              </a>
+              </a> */}
             </li>
             {/* <li>
               <a className='nav-link' href='pestbandofficial@outlook.com'>
