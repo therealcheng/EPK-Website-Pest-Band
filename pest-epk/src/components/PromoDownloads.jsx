@@ -4,6 +4,7 @@ import image3 from '../img/promo/download/03.jpg';
 import image4 from '../img/promo/download/04.jpg';
 import image5 from '../img/promo/download/05.jpg';
 import image6 from '../img/promo/download/06.jpg';
+import tech from '../img/promo/download/specs.pdf';
 
 const PromoDownloads = () => {
   return (
@@ -44,6 +45,11 @@ const PromoDownloads = () => {
           <li>
             <a className='' href={image6} download>
               Image 6
+            </a>
+          </li>
+          <li>
+            <a className='text-red-500' href={tech} download>
+              Tech Spec
             </a>
           </li>
         </ul>
