@@ -33,7 +33,6 @@ const Footer = () => {
           <p className='mx-auto max-w-lg text-xs text-gray-500 dark:text-gray-400'>
             All rights reserved as part of a copyright notice.
             <span className='mt-4 block'>
-              {' '}
               &copy; 2022, Cheng Lim Photography.
             </span>
           </p>
