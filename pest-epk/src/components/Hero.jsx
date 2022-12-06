@@ -5,9 +5,7 @@ const Hero = () => {
   const preSave = () => {
     window.open('https://distrokid.com/hyperfollow/pest4/in-purgatory');
   };
-  const photoReel = () => {
-    console.log('works');
-  };
+
   return (
     <motion.div
       animate={{ opacity: 1 }}
