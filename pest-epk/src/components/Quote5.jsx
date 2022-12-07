@@ -1,10 +1,10 @@
-import image from '../img/disMag.png';
+import image from '../img/in-purg.jpg';
 import { motion } from 'framer-motion';
 
 const cite1 = {
-  name: 'Dislocated Magazine',
-  quote: '"If this does not wake you up, then I don’t know what will"',
-  link: 'https://indd.adobe.com/view/f079e9f6-2574-424f-81c3-e6a82b90ab1e',
+  name: 'Iain Key, Louder Than War Radio',
+  quote: `PEST: In Purgatory – EP review`,
+  link: 'https://louderthanwar.com/pest-in-purgatory-ep-review/#lb9i0wdv8g1w44w7hx',
 };
 
 const Quote1 = () => {

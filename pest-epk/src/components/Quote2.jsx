@@ -15,7 +15,7 @@ const Quote1 = () => {
           <motion.img
             whileHover={{ scale: 1.1, opacity: 0.9 }}
             transition={{ duration: 0.3 }}
-            className='hidden md:block lg:block'
+            className='hidden md:block lg:block max-h-48'
             src={image}
             alt='Article Image'
           />

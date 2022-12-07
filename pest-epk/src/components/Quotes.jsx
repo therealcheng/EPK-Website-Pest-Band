@@ -2,6 +2,7 @@ import Quote1 from './Quote1';
 import Quote2 from './Quote2';
 import Quote3 from './Quote3';
 import Quote4 from './Quote4';
+import Quote5 from './Quote5';
 import '../styles/Quotes.css';
 
 const Quotes = () => {
@@ -11,6 +12,7 @@ const Quotes = () => {
         <h1 className='p-10 lg:text-6xl text-white'>PRESS ARTICLES</h1>
       </div>
       <div className=' flex flex-col gap-8 items-center pb-8 lg:pb-48 md:flex-row md:justify-center lg:gap-10'>
+        <Quote5 />
         <Quote4 />
         <Quote1 />
         <Quote2 />
