@@ -30,9 +30,9 @@ const Hero = () => {
           OUT NOW
         </motion.button>
       </div>
-      <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
+      {/* <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
         RELEASE DATE: 03/12/2022
-      </h1>
+      </h1> */}
     </motion.div>
   );
 };
