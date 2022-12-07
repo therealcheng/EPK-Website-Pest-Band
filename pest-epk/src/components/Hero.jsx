@@ -3,7 +3,9 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   const preSave = () => {
-    window.open('https://distrokid.com/hyperfollow/pest4/in-purgatory');
+    window.open(
+      'https://open.spotify.com/album/2VLrlocedHBeqnmACWJjgf?si=56n7S0lkS5ivTdzPCBi1Eg'
+    );
   };
 
   return (
@@ -25,7 +27,7 @@ const Hero = () => {
           onClick={preSave}
           className='btn btn-active btn-accent alight-center'
         >
-          Presave
+          OUT NOW
         </motion.button>
       </div>
       <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
