@@ -1,4 +1,4 @@
-import image from '../img/in-purg.jpg';
+import image from '../img/In-purg.jpg';
 import { motion } from 'framer-motion';
 
 const cite1 = {
