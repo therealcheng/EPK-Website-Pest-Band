@@ -1,7 +1,7 @@
 import '../styles/Spotify.css';
 import Card from './MusicCard';
 
-const Spotify = () => {
+const MusicSpotify = () => {
   const link =
     'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';
   return (
@@ -24,4 +24,4 @@ const Spotify = () => {
   );
 };
 
-export default Spotify;
+export default MusicSpotify;
