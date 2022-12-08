@@ -3,7 +3,7 @@ import Card from './MusicCard';
 
 const Spotify = () => {
   const link =
-    'https://open.spotify.com/embed/artist/65Zmltlk1QXhHR93MiH4Yl?utm_source=generator';
+    'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';
   return (
     <div className='lg:flex lg:justify-center'>
       <div className='lg:hidden'>

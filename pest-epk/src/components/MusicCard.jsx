@@ -4,7 +4,7 @@ const Card = () => {
   return (
     <div className='lg:w-96'>
       <a
-        href='https://open.spotify.com/artist/65Zmltlk1QXhHR93MiH4Yl?si=2ZNvcoo5TKK_Itg8mfuXTg'
+        href='src=https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator'
         target='_blank'
         rel='noreferrer noopener'
         className='group relative block bg-black'
