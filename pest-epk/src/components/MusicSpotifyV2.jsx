@@ -10,7 +10,6 @@ const MusicSpotify = () => {
         <Card />
       </div>
       <iframe
-        frameBorder='0px'
         title='Spotify'
         width='100%'
         height='380'
