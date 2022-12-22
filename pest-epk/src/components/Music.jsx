@@ -2,9 +2,9 @@ import MusicSpotify from './MusicSpotify';
 
 const Music = () => {
   return (
-    <div className='bg-black'>
+    <div className='p-6'>
       <div className='lg:py-12 lg:px-48'>
-        <div className='pb-8'>
+        <div className=''>
           <MusicSpotify />
         </div>
       </div>

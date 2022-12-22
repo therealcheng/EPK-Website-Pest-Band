@@ -12,9 +12,8 @@ const MusicSpotify = () => {
       <iframe
         title='Spotify'
         width='100%'
-        height='200'
+        height='380'
         src={link}
-        frameBorder='0'
         loading='lazy'
       ></iframe>
       <div className='hidden lg:block'>
