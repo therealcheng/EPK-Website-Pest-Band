@@ -1,7 +1,8 @@
 import React from 'react';
+import ReactAudioPlayer from 'react-audio-player';
 
 const MusicPlayer = () => {
-  return <div>MusicPlayer</div>;
+  return <ReactAudioPlayer src='my_audio_file.ogg' autoPlay controls />;
 };
 
 export default MusicPlayer;
