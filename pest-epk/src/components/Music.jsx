@@ -5,7 +5,8 @@ const Music = () => {
     <div className='p-6'>
       <div className='lg:py-12 lg:px-48'>
         <div className=''>
-          <MusicSpotify />
+          <h1>Placeholder</h1>
+          {/* <MusicSpotify /> */}
         </div>
       </div>
     </div>
