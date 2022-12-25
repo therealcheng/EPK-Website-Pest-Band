@@ -1,7 +1,8 @@
 import ReactAudioPlayer from 'react-audio-player';
+import safe from '../music/Safe.mp3';
 
 const MusicPlayer = () => {
-  return <ReactAudioPlayer src='../music/Safe.m4a' autoPlay controls />;
+  return <ReactAudioPlayer src={safe} autoPlay controls />;
 };
 
 export default MusicPlayer;
