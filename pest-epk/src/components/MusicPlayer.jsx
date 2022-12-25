@@ -1,8 +1,9 @@
-import React from 'react';
 import ReactAudioPlayer from 'react-audio-player';
 
 const MusicPlayer = () => {
-  return <ReactAudioPlayer src='my_audio_file.ogg' autoPlay controls />;
+  return (
+    <ReactAudioPlayer src='../music/Safe (NASTER).m4a' autoPlay controls />
+  );
 };
 
 export default MusicPlayer;
