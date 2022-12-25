@@ -8,8 +8,15 @@ import '../styles/Promo.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import { motion } from 'framer-motion';
+import React, { useState } from 'react';
 
-const Carousel = () => {
+const Carousel = ({ src }) => {
+  const [fullScreen, setFullScreen] = useState(false);
+
+  const toggleFullScreen = () => {
+    setFullScreen(!fullScreen);
+  };
+
   return (
     <div className='carousel rounded-box'>
       <motion.div
@@ -17,7 +24,15 @@ const Carousel = () => {
         transition={{ duration: 0.3 }}
         className='carousel-item w-60 lg:w-96'
       >
-        <LazyLoadImage src={image1} alt='Press1' />
+        <LazyLoadImage
+          src={image1}
+          onClick={toggleFullScreen}
+          style={{
+            width: fullScreen ? '150%' : '50%',
+            height: fullScreen ? '100%' : '50%',
+          }}
+          alt='Press1'
+        />
       </motion.div>
       <motion.div
         whileHover={{ scale: 1.1 }}
