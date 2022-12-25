@@ -1,4 +1,4 @@
-import MusicSpotify from './MusicSpotify';
+import MusicPlayer from './MusicPlayer';
 
 const Music = () => {
   return (
@@ -6,6 +6,7 @@ const Music = () => {
       <div className='lg:py-12 lg:px-48'>
         <div className=''>
           <h1>Placeholder</h1>
+          <MusicPlayer />
           {/* <MusicSpotify /> */}
         </div>
       </div>
