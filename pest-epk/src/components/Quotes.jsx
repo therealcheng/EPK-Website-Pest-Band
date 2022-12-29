@@ -1,8 +1,3 @@
-import Quote1 from './Quote1';
-import Quote2 from './Quote2';
-import Quote3 from './Quote3';
-import Quote4 from './Quote4';
-import Quote5 from './Quote5';
 import Quote from './Quote';
 import '../styles/Quotes.css';
 import { useState } from 'react';
