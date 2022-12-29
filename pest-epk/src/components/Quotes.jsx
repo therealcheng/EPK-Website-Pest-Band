@@ -40,11 +40,7 @@ const Quotes = () => {
           }
           image={imageDisMag}
         />
-        <button className='btn' onClick={() => setIsVisible(!isVisible)}>
-          Show More
-        </button>
         <Quote
-          hidden={isVisible}
           name={'Iain Key, Louder Than War Radio'}
           quote={
             ' “The heaviest thing to come out of the county since Enter Shikari”'
@@ -55,7 +51,6 @@ const Quotes = () => {
           image={imageLouder}
         />
         <Quote
-          hidden={isVisible}
           name={'Black Feather'}
           quote={`“I knew nothing about you guys, I walked in and everyone was moshing,
   it was crazy"`}
