@@ -2,14 +2,12 @@
 
 Live-server: [website](https://pest-epk-website2-0.vercel.app/)
 
-Electronic press kit (custom-portfolio) for two piece punk-rock band Pest.
-
-An Electronic Press Kit (EPK) is a resume or CV for music artists. It’s designed to provide labels, agents, music supervisors, venue talent, buyers and the media with essential information to understand who you are as an artist so that you can get noticed, land a gig and/or make connections. (O'donoghue,2019)
+Electronic press kit (custom-portfolio) for two piece punk-rock band Pest. Additionally, this is to showcase my ability to utilise the React framework into a real, practical example.
 
 # User Stories
 
 Single page Electronic Press Kit to showcase band (PEST - two piece rock band)
-Making the first impression a lasting one with clean, responsive design.
+Making the first impression a lasting one with clean, responsive design with some nice animations.
 
 # What to include in an EPK
 
@@ -20,6 +18,6 @@ Making the first impression a lasting one with clean, responsive design.
     Social media links
     Contact information
 
-# Future implementation
+# Future implementation 29/12/22
 
-E-commerce store
+In house E-commerce store to sell Band Merchandise
