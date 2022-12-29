@@ -6,6 +6,8 @@ import Quote5 from './Quote5';
 import Quote from './Quote';
 import '../styles/Quotes.css';
 import { useState } from 'react';
+import imageReview from '../img/In-purg.jpg';
+import imageAlyx from '../img/alyx.jpg';
 
 const Quotes = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,8 +24,16 @@ const Quotes = () => {
           link={
             'https://louderthanwar.com/pest-in-purgatory-ep-review/#lb9i0wdv8g1w44w7hx'
           }
+          image={imageReview}
         />
-        <Quote4 />
+        <Quote
+          name={'Alyx Holcombe BBC Radio 1'}
+          quote={`"What a way to start the show!”`}
+          link={
+            'https://www.instagram.com/reel/CljEFAuIZqD/?utm_source=ig_web_copy_link'
+          }
+          image={imageAlyx}
+        />
         <Quote1 />
         <div>Show more</div>
         <Quote2 visibility={0} />

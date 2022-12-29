@@ -1,4 +1,4 @@
-import image from '../img/alex.jpg';
+import image from '../img/alyx.jpg';
 import { motion } from 'framer-motion';
 
 const cite1 = {

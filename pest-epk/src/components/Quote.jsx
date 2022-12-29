@@ -1,4 +1,3 @@
-import image from '../img/disMag.png';
 import { motion } from 'framer-motion';
 
 const Quote1 = (props) => {
@@ -10,7 +9,7 @@ const Quote1 = (props) => {
             whileHover={{ scale: 1.1, opacity: 0.9 }}
             transition={{ duration: 0.3 }}
             className='hidden md:block lg:block max-h-48 max-w-2xl'
-            src={image}
+            src={props.image}
             alt='Article Image'
           />
         </a>
