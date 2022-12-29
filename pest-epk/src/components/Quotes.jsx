@@ -1,6 +1,5 @@
 import Quote from './Quote';
 import '../styles/Quotes.css';
-import { useState } from 'react';
 import imageReview from '../img/In-purg.jpg';
 import imageAlyx from '../img/alyx.jpg';
 import imageDisMag from '../img/disMag.png';
@@ -8,8 +7,6 @@ import imageLouder from '../img/louderThanWar.png';
 import imageFeather from '../img/blackFeather.png';
 
 const Quotes = () => {
-  const [isVisible, setIsVisible] = useState(true);
-
   return (
     <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
       <div className='lg:p-36'>
