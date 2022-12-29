@@ -3,18 +3,26 @@ import Quote2 from './Quote2';
 import Quote3 from './Quote3';
 import Quote4 from './Quote4';
 import Quote5 from './Quote5';
+import Quote from './Quote';
 import '../styles/Quotes.css';
 import { useState } from 'react';
 
 const Quotes = () => {
   const [isVisible, setIsVisible] = useState(false);
+
   return (
     <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
       <div className='lg:p-36'>
         <h1 className='p-10 lg:text-6xl text-white'>PRESS ARTICLES</h1>
       </div>
       <div className=' flex flex-col gap-8 items-center pb-8 lg:pb-48 md:flex-row md:justify-center lg:gap-10'>
-        <Quote5 />
+        <Quote
+          name={'Iain Key, Louder Than War Radio'}
+          quote={`PEST: In Purgatory EP review`}
+          link={
+            'https://louderthanwar.com/pest-in-purgatory-ep-review/#lb9i0wdv8g1w44w7hx'
+          }
+        />
         <Quote4 />
         <Quote1 />
         <div>Show more</div>
