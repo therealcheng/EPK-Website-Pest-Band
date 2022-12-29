@@ -8,7 +8,7 @@ import imageLouder from '../img/louderThanWar.png';
 import imageFeather from '../img/blackFeather.png';
 
 const Quotes = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
 
   return (
     <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
@@ -40,8 +40,11 @@ const Quotes = () => {
           }
           image={imageDisMag}
         />
-        <div>Show more button placeholder</div>
+        <button className='btn' onClick={() => setIsVisible(!isVisible)}>
+          Show More
+        </button>
         <Quote
+          hidden={isVisible}
           name={'Iain Key, Louder Than War Radio'}
           quote={
             ' “The heaviest thing to come out of the county since Enter Shikari”'
@@ -52,6 +55,7 @@ const Quotes = () => {
           image={imageLouder}
         />
         <Quote
+          hidden={isVisible}
           name={'Black Feather'}
           quote={`“I knew nothing about you guys, I walked in and everyone was moshing,
   it was crazy"`}

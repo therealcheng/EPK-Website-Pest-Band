@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 
 const Quote1 = (props) => {
+  const mainStyles = 'card w-72 lg:w-96 bg-base-100 shadow-xl';
   return (
-    <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
+    <div className={props.hidden ? 'collapse' : mainStyles}>
       <figure>
         <a href={props.link} target='_blank' rel='noreferrer'>
           <motion.img
@@ -14,8 +15,14 @@ const Quote1 = (props) => {
           />
         </a>
       </figure>
-      <div className='card-body'>
-        <h2 className='italic card-title text-white'>{props.quote}</h2>
+      <div className={props.hidden ? ' invisible' : 'card-body'}>
+        <h2
+          className={
+            props.hidden ? ' invisible' : 'italic card-title text-white'
+          }
+        >
+          {props.quote}
+        </h2>
         <p>{props.name}</p>
         <div className='card-actions justify-end'>
           <form action={props.link} target='_blank'>
