@@ -1,13 +1,13 @@
-import image from '../img/In-purg.jpg';
+import image from '../img/disMag.png';
 import { motion } from 'framer-motion';
 
 const cite1 = {
-  name: 'Iain Key, Louder Than War Radio',
-  quote: `PEST: In Purgatory – EP review`,
-  link: 'https://louderthanwar.com/pest-in-purgatory-ep-review/#lb9i0wdv8g1w44w7hx',
+  name: 'Dislocated Magazine',
+  quote: '"If this does not wake you up, then I don’t know what will"',
+  link: 'https://indd.adobe.com/view/f079e9f6-2574-424f-81c3-e6a82b90ab1e',
 };
 
-const Quote1 = (props) => {
+const Quote1 = () => {
   return (
     <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
