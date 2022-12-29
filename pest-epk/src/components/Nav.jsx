@@ -1,6 +1,6 @@
 import '../styles/Nav.css';
 import logo from '../img/pest-logo.jpg';
-import IconLinks from './IconLinks';
+import IconLinks from './NavIcons';
 
 const Nav = () => {
   return (
