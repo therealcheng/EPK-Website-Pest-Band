@@ -11,7 +11,7 @@ import { motion } from 'framer-motion';
 
 const Carousel = ({ src }) => {
   return (
-    <div className='carousel carousel-centre rounded-box'>
+    <div className='carousel rounded-box'>
       <motion.div
         whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.3 }}
