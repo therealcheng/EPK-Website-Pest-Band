@@ -5,6 +5,7 @@ import Quotes from './components/Quotes';
 import MusicPlayer from './components/MusicPlayer';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
+import Purg from './img/In-purg.jpg';
 
 function App() {
   return (
@@ -15,7 +16,13 @@ function App() {
         <div>
           <About />
           <div>
-            <MusicPlayer />
+            <MusicPlayer
+              title={'Safe'}
+              artist={'Pest'}
+              // audioSrc: string | import,
+              image={Purg}
+              // color: string,
+            />
             <div>
               <Quotes />
               <div>
