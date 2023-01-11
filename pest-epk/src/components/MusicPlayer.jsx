@@ -1,34 +1,20 @@
-import { useStaSte, useEffect, useRef } from 'react';
-import '../styles/MusicPlayer.css';
-// Props
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { PlayButton, Timer } from 'react-soundplayer/components';
+// it's just an alias for `withSoundCloudAudio` but makes code clearer
+import { withCustomAudio } from 'react-soundplayer/addons';
 
-const AudioPlayer = ({ tracks }) => {
-  // State
-  // const [trackIndex, setTrackIndex] = useState(0);
-  // const [trackProgress, setTrackProgress] = useState(0);
-  // const [isPlaying, setIsPlaying] = useState(false);
+// audio source
 
-  // Destructure
-  // const { title, artist, color, image, audioSrc } = tracks[trackIndex];
-
-  // Refs
-  // const audioRef = useRef(new Audio(audioSrc));
-  // const intervalRef = useRef();
-  // const isReady = useRef(false);
-
+const MusicPlayer = withCustomAudio((props) => {
+  const { trackTitle } = props;
   return (
-    <div className='audio-player'>
-      <div className='track-info'>
-        <img
-          className='artwork'
-          src={tracks.image}
-          alt={`tracks artwork for ${tracks.title} by ${tracks.artist}`}
-        />
-        <h2 className='title'>{tracks.title}</h2>
-        <h3 className='artist'>{tracks.artist}</h3>
-      </div>
+    <div className='p-32'>
+      <PlayButton {...props} />
+      <h2>{trackTitle}</h2>
+      <Timer {...props} />
     </div>
   );
-};
+});
 
-export default AudioPlayer;
+export default MusicPlayer;

@@ -5,17 +5,12 @@ import Quotes from './components/Quotes';
 import MusicPlayer from './components/MusicPlayer';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
-import Purg from './img/In-purg.jpg';
+
+//Metadata
+const trackTitle = 'Great song by random artist';
+const streamUrl = './music/safe.mp3';
 
 function App() {
-  const tracks = [
-    {
-      title: 'Safe',
-      artist: 'PEST',
-      audioSrc: 'music/safe.mp3',
-      image: Purg,
-    },
-  ];
   return (
     <div>
       <Nav />
@@ -24,7 +19,11 @@ function App() {
         <div>
           <About />
           <div>
-            <MusicPlayer tracks={tracks} />
+            <MusicPlayer
+              streamUrl={streamUrl}
+              trackTitle={trackTitle}
+              preloadType='auto'
+            />
             <div>
               <Quotes />
               <div>
