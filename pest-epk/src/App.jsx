@@ -19,11 +19,7 @@ function App() {
         <div>
           <About />
           <div>
-            <MusicPlayer
-              streamUrl={streamUrl}
-              trackTitle={trackTitle}
-              preloadType='auto'
-            />
+            <MusicPlayer />
             <div>
               <Quotes />
               <div>
