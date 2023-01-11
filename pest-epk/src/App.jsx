@@ -8,6 +8,14 @@ import Footer from './components/Footer';
 import Purg from './img/In-purg.jpg';
 
 function App() {
+  const tracks = [
+    {
+      title: 'Safe',
+      artist: 'PEST',
+      audioSrc: 'music/safe.mp3',
+      image: Purg,
+    },
+  ];
   return (
     <div>
       <Nav />
@@ -16,13 +24,7 @@ function App() {
         <div>
           <About />
           <div>
-            <MusicPlayer
-              title={'Safe'}
-              artist={'Pest'}
-              // audioSrc: string | import,
-              image={Purg}
-              // color: string,
-            />
+            <MusicPlayer tracks={tracks} />
             <div>
               <Quotes />
               <div>
