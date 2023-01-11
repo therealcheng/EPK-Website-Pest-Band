@@ -3,13 +3,17 @@ import '../styles/Spotify.css';
 const MusicSpotify = () => {
   const link =
     'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';
+  window.onSpotifyIframeApiReady = (IFrameAPI) => {
+    console.log('ready');
+    //
+  };
+
   return (
-    <div className='lg:flex lg:justify-center'>
+    <div id='embed-iframe'>
       <iframe
-        className=''
         title='Spotify'
         width='100%'
-        height='380'
+        height='480'
         src={link}
         loading='lazy'
       ></iframe>
