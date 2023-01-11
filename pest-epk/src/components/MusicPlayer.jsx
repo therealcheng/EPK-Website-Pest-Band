@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactAudioPlayer from 'react-audio-player';
+import { useState, useEffect, useRef } from 'react';
 
-const MusicPlayer = () => {
-  return <ReactAudioPlayer src='my_audio_file.ogg' autoPlay controls />;
+const AudioPlayer = ({ tracks }) => {
+  // State
+  // const [trackIndex, setTrackIndex] = useState(0);
+  // const [trackProgress, setTrackProgress] = useState(0);
+  // const [isPlaying, setIsPlaying] = useState(false);
+
+  return <div>MusicPlayer</div>;
 };
 
-export default MusicPlayer;
-
-// React Music Player Ideas
-//https://www.npmjs.com/package/react-jinke-music-player
-// https://freefrontend.com/react-music-players/
+export default AudioPlayer;

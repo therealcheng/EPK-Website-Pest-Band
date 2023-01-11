@@ -2,7 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import About from './components/About';
 import Quotes from './components/Quotes';
-import Music from './components/Music';
+import MusicPlayer from './components/MusicPlayer';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
 
@@ -15,7 +15,7 @@ function App() {
         <div>
           <About />
           <div>
-            <Music />
+            <MusicPlayer />
             <div>
               <Quotes />
               <div>
