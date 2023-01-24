@@ -15,8 +15,8 @@ const NavIcons = () => {
   return (
     <div className='flex gap-4'>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -28,8 +28,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -41,8 +41,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -54,8 +54,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -67,8 +67,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -80,8 +80,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -93,8 +93,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
@@ -106,8 +106,8 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        whileHover={{ scale: 1.1, opacity: 0.9 }}
-        transition={{ duration: 0.3 }}
+        whileHover={{ scale: 1.1 }}
+        whileTap={{ scale: 0.9 }}
         className=''
       >
         <a
