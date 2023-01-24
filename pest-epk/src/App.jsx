@@ -6,9 +6,7 @@ import MusicPlayer from './components/MusicPlayer';
 import Promo from './components/Promo';
 import Footer from './components/Footer';
 
-//Metadata
-const trackTitle = 'Great song by random artist';
-const streamUrl = './music/safe.mp3';
+
 
 function App() {
   return (
