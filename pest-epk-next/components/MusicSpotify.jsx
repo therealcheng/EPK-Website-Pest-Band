@@ -1,11 +1,9 @@
 const MusicSpotify = () => {
   const link =
     'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';
-  window.onSpotifyIframeApiReady = (IFrameAPI) => {
-    console.log('ready');
-    //
-  };
-
+  // window.onSpotifyIframeApiReady = (IFrameAPI) => {
+  //   console.log('ready');
+  // };
   return (
     <div id='embed-iframe'>
       <iframe

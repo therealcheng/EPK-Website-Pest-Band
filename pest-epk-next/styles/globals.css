@@ -72,3 +72,15 @@ ul {
   background-position: center;
   background-size: cover;
 }
+
+.image {
+  min-width: 60px;
+  max-width: 200px;
+}
+
+.background {
+  background-image: url('../public/background-full.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

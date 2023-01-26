@@ -1,8 +1,8 @@
 import '../styles/Promo.css';
-import PromoCarousel from './PromoCarousel';
-import PromoDownloads from './PromoDownloads';
+import PressImages from './PressImages';
+import PressDownloads from './PressDownloads';
 
-const Promo = () => {
+const Press = () => {
   return (
     <div className='background'>
       <div className='lg:p-48'>
@@ -10,14 +10,14 @@ const Promo = () => {
           PRESS PHOTOS
         </h1>
         <div className='pb-4 lg:p-8 flex gap-6'>
-          <PromoCarousel />
+          <PressImages />
         </div>
         <div>
-          <PromoDownloads />
+          <PressDownloads />
         </div>
       </div>
     </div>
   );
 };
-
-export default Promo;
+Press;
+export default Press;
