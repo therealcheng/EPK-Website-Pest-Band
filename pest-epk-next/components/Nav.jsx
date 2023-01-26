@@ -21,7 +21,12 @@ const Nav = () => {
             ease: [0, 0.71, 0.2, 1.01],
           }}
         >
-          <Image className='lg:hidden' src={logo} width={50} alt='pest-logo' />
+          <Image
+            className='lg:hidden pb-4'
+            src={logo}
+            width={50}
+            alt='pest-logo'
+          />
         </motion.div>
         <div className='nav-logo'>
           <Image className='hidden lg:block w-20' src={logo} alt='pest-logo' />
