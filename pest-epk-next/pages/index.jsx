@@ -7,6 +7,7 @@ import About from '@/components/About';
 import MusicPlayer from '@/components/MusicPlayer';
 import PressArticles from '@/components/PressArticles';
 import PressPhotos from '@/components/PressPhotos';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
           <MusicPlayer />
           <PressArticles />
           <PressPhotos />
+          <Footer />
         </div>
       </main>
     </>
