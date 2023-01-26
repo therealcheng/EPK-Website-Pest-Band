@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const Quote1 = (props) => {
+const PressArticle = (props) => {
   return (
     <div className='card w-72 lg:w-96 bg-base-100 shadow-xl'>
       <figure>
@@ -27,4 +27,4 @@ const Quote1 = (props) => {
   );
 };
 
-export default Quote1;
+export default PressArticle;

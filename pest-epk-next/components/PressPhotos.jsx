@@ -2,7 +2,7 @@ import '../styles/Promo.css';
 import PressImages from './PressImages';
 import PressDownloads from './PressDownloads';
 
-const Press = () => {
+const PressPhotos = () => {
   return (
     <div className='background'>
       <div className='lg:p-48'>
@@ -19,5 +19,5 @@ const Press = () => {
     </div>
   );
 };
-Press;
-export default Press;
+
+export default PressPhotos;

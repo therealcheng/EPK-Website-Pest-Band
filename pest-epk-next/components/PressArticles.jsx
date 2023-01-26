@@ -1,4 +1,4 @@
-import Quote from './Quote';
+import Quote from './PressArticle';
 import '../styles/Quotes.css';
 import imageReview from '../img/In-purg.jpg';
 import imageAlyx from '../img/alyx.jpg';
