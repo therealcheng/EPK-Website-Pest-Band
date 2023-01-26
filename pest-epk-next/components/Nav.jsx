@@ -1,10 +1,15 @@
 import NavIcons from './NavIcons';
 import Image from 'next/image';
 import logo from '../public/pest-logo.jpg';
+import { motion } from 'framer-motion';
 
 const Nav = () => {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
       <nav className='nav lg:flex lg:gap-12' id='background-nav'>
         <div className='flex justify-center'>
           <Image className='lg:hidden' src={logo} width={50} alt='pest-logo' />
@@ -33,7 +38,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-    </div>
+    </motion.div>
   );
 };
 
