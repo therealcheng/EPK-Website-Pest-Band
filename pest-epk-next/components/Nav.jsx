@@ -1,15 +1,16 @@
-import logo from '@/public/pest-logo.jpg';
 import NavIcons from './NavIcons';
+import Image from 'next/image';
+import logo from '../public/pest-logo.jpg';
 
 const Nav = () => {
   return (
     <div>
       <nav className='nav lg:flex lg:gap-12' id='background-nav'>
         <div className='flex justify-center'>
-          <img className='lg:hidden' src={logo} width={50} alt='pest-logo' />
+          <Image className='lg:hidden' src={logo} width={50} alt='pest-logo' />
         </div>
         <div className='nav-logo'>
-          <img className='hidden lg:block w-20' src={logo} alt='pest-logo' />
+          <Image className='hidden lg:block w-20' src={logo} alt='pest-logo' />
           <div className='lg:pl-12'>
             <NavIcons />
           </div>
