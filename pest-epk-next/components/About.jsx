@@ -1,4 +1,3 @@
-import '../styles/About.css';
 const About = () => {
   return (
     <div className='p-12 py-36 background-img lg:about lg:p-96'>

@@ -48,3 +48,27 @@ ul {
   /* font-family: 'Cinzel Decorative'; */
   opacity: 0.95;
 }
+
+.font {
+  font-family: 'Cinzel Decorative';
+}
+
+.about {
+  background-color: Black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.background-img {
+  background-image: url('../public/05.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-img-lg {
+  background-image: url('../public/portrait1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
