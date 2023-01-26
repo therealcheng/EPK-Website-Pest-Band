@@ -1,4 +1,4 @@
-import '../styles/Nav.css';
+import styles from '@/styles/Nav.module.css';
 import logo from '../img/pest-logo.jpg';
 import IconLinks from './NavIcons';
 
