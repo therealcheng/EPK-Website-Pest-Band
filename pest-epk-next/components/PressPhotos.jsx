@@ -1,4 +1,3 @@
-import '../styles/Promo.css';
 import PressImages from './PressImages';
 import PressDownloads from './PressDownloads';
 

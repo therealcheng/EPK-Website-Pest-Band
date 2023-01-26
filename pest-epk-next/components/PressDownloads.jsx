@@ -1,12 +1,11 @@
-import image1 from '../img/promo/download/01.jpg';
-import image2 from '../img/promo/download/02.jpg';
-import image3 from '../img/promo/download/03.jpg';
-import image4 from '../img/promo/download/04.jpg';
-import image5 from '../img/promo/download/05.jpg';
-import image6 from '../img/promo/download/06.jpg';
-import tech from '../img/promo/download/specs.pdf';
+import image1 from '../public/01.jpg';
+import image2 from '../public/02.jpeg';
+import image3 from '../public/03.jpeg';
+import image4 from '../public/04.jpeg';
+import image5 from '../public/05.jpeg';
+import image6 from '../public/06.jpeg';
 
-const PromoDownloads = () => {
+const PressDownloads = () => {
   return (
     <div>
       <div className='dropdown dropdown-top flex-col justify-center text-white lg:text-2xl'>
@@ -48,7 +47,12 @@ const PromoDownloads = () => {
             </a>
           </li>
           <li>
-            <a className='text-red-500' href={tech} download>
+            <a
+              className='text-red-500'
+              href='https://pdfhost.io/v/4iMTIZr~f_Pest_Tech_Spec'
+              target='_blank'
+              download
+            >
               Tech Spec
             </a>
           </li>
@@ -58,4 +62,4 @@ const PromoDownloads = () => {
   );
 };
 
-export default PromoDownloads;
+export default PressDownloads;

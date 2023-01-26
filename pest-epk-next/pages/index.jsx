@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import MusicPlayer from '@/components/MusicPlayer';
 import PressArticles from '@/components/PressArticles';
+import PressPhotos from '@/components/PressPhotos';
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
           <About />
           <MusicPlayer />
           <PressArticles />
+          <PressPhotos />
         </div>
       </main>
     </>
