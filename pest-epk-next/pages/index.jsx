@@ -5,6 +5,7 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import MusicPlayer from '@/components/MusicPlayer';
+import PressArticles from '@/components/PressArticles';
 
 export default function Home() {
   return (
@@ -15,12 +16,13 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <main className={styles.main}>
+      <main>
         <div>
           <Nav />
           <Hero />
           <About />
           <MusicPlayer />
+          <PressArticles />
         </div>
       </main>
     </>

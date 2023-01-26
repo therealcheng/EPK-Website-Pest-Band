@@ -1,19 +1,18 @@
-import Quote from './PressArticle';
-import '../styles/Quotes.css';
-import imageReview from '../img/In-purg.jpg';
-import imageAlyx from '../img/alyx.jpg';
-import imageDisMag from '../img/disMag.png';
-import imageLouder from '../img/louderThanWar.png';
-import imageFeather from '../img/blackFeather.png';
+import PressArticle from './PressArticle';
+import imageReview from '../public/In-purg.jpg';
+import imageAlyx from '../public/alyx.jpg';
+import imageDisMag from '../public/disMag.png';
+import imageLouder from '../public/louderThanWar.png';
+import imageFeather from '../public/blackFeather.png';
 
-const Quotes = () => {
+const PressArticles = () => {
   return (
     <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
       <div className='lg:p-36'>
         <h1 className='p-10 lg:text-6xl text-white'>PRESS ARTICLES</h1>
       </div>
       <div className=' flex flex-col gap-8 items-center pb-8 lg:pb-48 md:flex-row md:justify-center lg:gap-10'>
-        <Quote
+        <PressArticle
           name={'Iain Key, Louder Than War Radio'}
           quote={`PEST: In Purgatory EP review`}
           link={
@@ -21,7 +20,7 @@ const Quotes = () => {
           }
           image={imageReview}
         />
-        <Quote
+        <PressArticle
           name={'Alyx Holcombe BBC Radio 1'}
           quote={`"What a way to start the show!”`}
           link={
@@ -29,7 +28,7 @@ const Quotes = () => {
           }
           image={imageAlyx}
         />
-        <Quote
+        <PressArticle
           name={'Dislocated Magazine'}
           quote={'"If this does not wake you up, then I don’t know what will"'}
           link={
@@ -37,7 +36,7 @@ const Quotes = () => {
           }
           image={imageDisMag}
         />
-        <Quote
+        <PressArticle
           name={'Iain Key, Louder Than War Radio'}
           quote={
             ' “The heaviest thing to come out of the county since Enter Shikari”'
@@ -47,7 +46,7 @@ const Quotes = () => {
           }
           image={imageLouder}
         />
-        <Quote
+        <PressArticle
           name={'Black Feather'}
           quote={`“I knew nothing about you guys, I walked in and everyone was moshing,
   it was crazy"`}
@@ -59,4 +58,4 @@ const Quotes = () => {
   );
 };
 
-export default Quotes;
+export default PressArticles;
