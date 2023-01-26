@@ -11,9 +11,18 @@ const Nav = () => {
       transition={{ duration: 0.5 }}
     >
       <nav className='nav lg:flex lg:gap-12' id='background-nav'>
-        <div className='flex justify-center'>
+        <motion.div
+          className='flex justify-center'
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            duration: 0.8,
+            delay: 2,
+            ease: [0, 0.71, 0.2, 1.01],
+          }}
+        >
           <Image className='lg:hidden' src={logo} width={50} alt='pest-logo' />
-        </div>
+        </motion.div>
         <div className='nav-logo'>
           <Image className='hidden lg:block w-20' src={logo} alt='pest-logo' />
           <div className='lg:pl-12'>
