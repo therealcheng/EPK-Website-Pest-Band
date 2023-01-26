@@ -13,14 +13,14 @@ const NavIcons = () => {
   return (
     <div className='flex gap-4'>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 0.5,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -33,14 +33,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 0.6,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -53,14 +53,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 0.7,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -73,14 +73,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 0.8,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -93,14 +93,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 0.9,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -113,14 +113,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 1,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -133,14 +133,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 1.1,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >
@@ -153,14 +153,14 @@ const NavIcons = () => {
         </a>
       </motion.ul>
       <motion.ul
-        initial={{ opacity: 0, scale: 0.5 }}
+        initial={{ opacity: 0, scale: 0.5, delay: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{
           duration: 0.8,
-          delay: 1.2,
+
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        whileHover={{ scale: 1.1 }}
+        whileHover={{ scale: 1.4 }}
         whileTap={{ scale: 0.9 }}
         className=''
       >

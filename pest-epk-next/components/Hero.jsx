@@ -2,7 +2,7 @@ import '../styles/Hero.css';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
-  const preSave = () => {
+  const btnLink = () => {
     window.open(
       'https://open.spotify.com/album/2VLrlocedHBeqnmACWJjgf?si=56n7S0lkS5ivTdzPCBi1Eg'
     );
@@ -24,7 +24,7 @@ const Hero = () => {
         <motion.button
           whileHover={{ scale: 1.1, opacity: 0.9 }}
           transition={{ duration: 0.3 }}
-          onClick={preSave}
+          onClick={btnLink}
           className='btn btn-active btn-accent alight-center'
         >
           OUT NOW
