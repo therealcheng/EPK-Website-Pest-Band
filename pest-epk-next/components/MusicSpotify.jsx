@@ -1,5 +1,3 @@
-import '../styles/Spotify.css';
-
 const MusicSpotify = () => {
   const link =
     'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';

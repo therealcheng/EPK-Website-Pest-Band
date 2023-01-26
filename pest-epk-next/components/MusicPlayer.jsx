@@ -1,4 +1,3 @@
-import React from 'react';
 import MusicSpotify from './MusicSpotify.jsx';
 const MusicPlayer = () => {
   return (
