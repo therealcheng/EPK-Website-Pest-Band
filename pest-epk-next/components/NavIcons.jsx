@@ -1,4 +1,3 @@
-import styles from '@/styles/Nav.module.css';
 import {
   IoLogoInstagram,
   IoMail,
