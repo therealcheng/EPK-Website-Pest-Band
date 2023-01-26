@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel Decorative');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#background-nav {
+  background-image: url('../public/nav-banner2.png');
+}
+
+.nav {
+  color: #f9faf8;
+  background-color: #221f20;
+  font-family: 'Cinzel Decorative';
+}
+
+.nav-logo {
+  padding-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.nav-links {
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  gap: 24px;
+  font-size: 1.2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style: none;
+}
+
+.hero-main {
+  background-image: url('../public/hero2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: aliceblue;
+  /* font-family: 'Cinzel Decorative'; */
+  opacity: 0.95;
+}
+
+.font {
+  font-family: 'Cinzel Decorative';
+}
+
+.about {
+  background-color: Black;
+  display: flex;
+  align-items: flex-end;
+}
+
+.background-img {
+  background-image: url('../public/05.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.background-img-lg {
+  background-image: url('../public/portrait1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image {
+  min-width: 60px;
+  max-width: 200px;
+}
+
+.background {
+  background-image: url('../public/background-full.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
