@@ -1,5 +1,5 @@
-import logo from '../img/pest-logo.jpg';
-import IconLinks from './NavIcons';
+import logo from '@/public/pest-logo.jpg';
+import NavIcons from './NavIcons';
 
 const Nav = () => {
   return (
@@ -11,7 +11,7 @@ const Nav = () => {
         <div className='nav-logo'>
           <img className='hidden lg:block w-20' src={logo} alt='pest-logo' />
           <div className='lg:pl-12'>
-            <IconLinks />
+            <NavIcons />
           </div>
         </div>
         <div className='pt-8'>
