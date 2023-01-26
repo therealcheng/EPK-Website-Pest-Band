@@ -7,7 +7,6 @@ import {
   IoLogoYoutube,
 } from 'react-icons/io5';
 import { motion } from 'framer-motion';
-
 import { BsSpotify, BsApple } from 'react-icons/bs';
 
 const NavIcons = () => {
