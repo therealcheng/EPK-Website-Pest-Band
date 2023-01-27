@@ -19,7 +19,7 @@ export default function Home() {
         <link rel='icon' href='/pest-logo.ico' />
       </Head>
       <main>
-        <div>
+        <div data-theme='luxury'>
           <Nav />
           <Hero />
           <About />

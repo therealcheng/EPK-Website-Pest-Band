@@ -7,7 +7,7 @@ import imageFeather from '../public/blackFeather.png';
 
 const PressArticles = () => {
   return (
-    <div className='bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 md:p-12'>
+    <div>
       <div className='lg:p-36'>
         <h1 className='p-10 lg:text-6xl text-white'>PRESS ARTICLES</h1>
       </div>

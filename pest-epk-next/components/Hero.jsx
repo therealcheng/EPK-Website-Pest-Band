@@ -1,4 +1,9 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+import HeroBtn from './HeroBtn';
+import heroImage from '../public/05.jpeg';
+// import heroImage2 from '../public/06.jpeg';
+// import heroImage3 from '../public/03.jpeg';
 
 const Hero = () => {
   const btnLink = () => {
@@ -12,28 +17,9 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1 }}
-      className='hero-main lg:p-96'
+      className='object-fill'
     >
-      <div className='lg:block lg:max-w-md'>
-        <h1 className='text-2xl flex lg:block pr-12 justify-end p-48 lg:mb-10 lg:text-6xl lg:font-bold lg:pr-0 lg:pl-96'>
-          IN PURGATORY
-        </h1>
-      </div>
-      <div className='flex justify-center pb-4'>
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          whileHover={{ scale: 1.1, opacity: 0.9 }}
-          transition={{ delay: 1, duration: 0.3 }}
-          onClick={btnLink}
-          className='btn btn-active btn-accent alight-center'
-        >
-          OUT NOW
-        </motion.button>
-      </div>
-      {/* <h1 className='flex lg:justify-end justify-center text-2xl lg:mb-10 lg:text-xl font-bold'>
-        RELEASE DATE: 03/12/2022
-      </h1> */}
+      <Image src={heroImage} />
     </motion.div>
   );
 };

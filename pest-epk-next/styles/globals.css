@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel Decorative');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  font-family: 'Italiana', serif;
+}
 
 .nav {
   color: #f9faf8;
