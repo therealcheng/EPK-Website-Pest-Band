@@ -53,7 +53,6 @@ ul {
 }
 
 .about {
-  background-color: Black;
   display: flex;
   align-items: flex-end;
 }
@@ -78,7 +77,6 @@ ul {
 }
 
 .background {
-  background-image: url('../public/background-full.jpeg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

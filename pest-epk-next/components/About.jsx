@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div className='p-4 py-36 lg:about lg:p-96 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
-      <h2 className='text-white font-bold lg:pb-40 pl-8 lg:text-4xl uppercase lg:p-12'>
+    <div className='p-4 py-36 lg:about lg:p-12 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
+      <h2 className='text-white font-bold lg:pb-2 pl-8 lg:text-4xl uppercase lg:p-12'>
         PEST are a punk rock two piece based in Hertfordshire.
       </h2>
       <p className=' text-white text-md mt-4 lg:text-white px-10 lg:text-lg'>

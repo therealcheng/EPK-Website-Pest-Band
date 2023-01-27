@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import HeroBtn from './HeroBtn';
+import About from './About';
 import heroImage from '../public/05.jpeg';
-// import heroImage2 from '../public/06.jpeg';
+import heroImage2 from '../public/06.jpeg';
 // import heroImage3 from '../public/03.jpeg';
 
 const Hero = () => {
@@ -17,9 +18,9 @@ const Hero = () => {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       transition={{ duration: 1 }}
-      className='object-fill'
+      className='lg:flex'
     >
-      <Image src={heroImage} />
+      <Image src={heroImage} className='lg:hidden' />
     </motion.div>
   );
 };

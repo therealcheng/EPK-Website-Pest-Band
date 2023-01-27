@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const PressArticle = ({ name, quote, link, image }) => {
   return (
-    <div className='card w-72 lg:w-96 bg-base-300  shadow-xl '>
+    <div className='card w-72 lg:w-96 bg-gradient-to-t from-rose-900 via-rose-900 to-rose-600 shadow-xl '>
       <figure>
         <a href={link} target='_blank' rel='noreferrer'>
           <Image
