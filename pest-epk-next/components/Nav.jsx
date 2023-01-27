@@ -11,7 +11,7 @@ const Nav = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <nav className='nav lg:flex lg:gap-12'>
+      <nav className=' lg:flex lg:gap-12 bg-slate-900'>
         <motion.div
           className='flex justify-center'
           initial={{ opacity: 0, scale: 0.5 }}
