@@ -2,6 +2,7 @@ import NavIcons from './NavIcons';
 import Image from 'next/image';
 import logo from '../public/pest-logo.jpg';
 import { motion } from 'framer-motion';
+import navBackground from '../public/nav-banner2.png';
 
 const Nav = () => {
   return (
@@ -10,7 +11,7 @@ const Nav = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <nav className='nav lg:flex lg:gap-12' id='background-nav'>
+      <nav className='nav lg:flex lg:gap-12'>
         <motion.div
           className='flex justify-center'
           initial={{ opacity: 0, scale: 0.5 }}
@@ -22,7 +23,7 @@ const Nav = () => {
           }}
         >
           <Image
-            className='lg:hidden pb-4'
+            className='lg:hidden pb-4 z-1'
             src={logo}
             width={50}
             alt='pest-logo'
