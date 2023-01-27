@@ -4,7 +4,7 @@ const MusicPlayer = () => {
 
   return (
     <div className='p-4 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
-      <div id='embed-iframe'>
+      <div>
         <iframe
           title='Spotify Player'
           width='100%'

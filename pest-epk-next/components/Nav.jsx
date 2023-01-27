@@ -11,7 +11,7 @@ const Nav = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <nav className=' lg:flex lg:gap-12 bg-gradient-to-r from-gray-700 via-gray-900 to-black'>
+      <nav className=' lg:flex lg:gap-12 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
         <motion.div
           className='flex justify-center'
           initial={{ opacity: 0, scale: 0.5 }}
