@@ -1,8 +1,18 @@
-import MusicSpotify from './MusicSpotify.jsx';
 const MusicPlayer = () => {
+  const link =
+    'https://open.spotify.com/embed/album/2VLrlocedHBeqnmACWJjgf?utm_source=generator';
+
   return (
-    <div className='p-4 bg-inherit'>
-      <MusicSpotify></MusicSpotify>
+    <div className='p-4 bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black'>
+      <div id='embed-iframe'>
+        <iframe
+          title='Spotify Player'
+          width='100%'
+          height='480'
+          src={link}
+          loading='lazy'
+        ></iframe>
+      </div>
     </div>
   );
 };
