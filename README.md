@@ -9,7 +9,7 @@ Electronic press kit (custom-portfolio) for two piece punk-rock band Pest. Addit
 Single page Electronic Press Kit to showcase band (PEST - two piece rock band)
 Making the first impression a lasting one with clean, responsive design with some nice animations.
 
-# What to include in an EPK
+# Version 1
 
     Music Bio
     Press and Reviews
