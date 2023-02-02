@@ -8,6 +8,7 @@ const MusicPlayer = () => {
         <iframe
           title='Spotify Player'
           width='100%'
+          className='rounded-xl'
           height='480'
           src={link}
           loading='lazy'
